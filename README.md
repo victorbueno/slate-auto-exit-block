@@ -16,7 +16,21 @@ import { Editor } from 'slate-react'
 
 // Add the plugin to your set of plugins...
 const plugins = [
-  AutoExitBlock()
+  AutoExitBlock({
+    blockType: /^(h{1,6})$/,
+    exitBlockType: 'paragraph'
+  }),
+  AutoExitBlock({
+    blockType: 'blockquote',
+    exitBlockType: 'paragraph',
+    onEmptyBlock: true
+  }),
+  AutoExitBlock({
+    blockType: 'li',
+    exitBlockType: 'paragraph',
+    onEmptyBlock: true,
+    unwrap: true
+  })
 ]
 
 // And later pass it into the Slate editor...
