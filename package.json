@@ -1,0 +1,15 @@
+{
+  "name": "slate-auto-exit-block",
+  "version": "1.0.0",
+  "description": "A Slate Plugin to auto exit Blocks like Blockquote, UL and LI when the block content is empty - just like Word editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Slate",
+    "Slate-React"
+  ],
+  "author": "Victor Hugo Bueno <victorbueno@gmail.com>",
+  "license": "ISC"
+}
