@@ -1,6 +1,6 @@
 {
   "name": "slate-auto-exit-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Slate Plugin to auto exit Blocks like Blockquote, UL and LI when the block content is empty - just like Word editor.",
   "main": "index.js",
   "repository": "git@github.com:victorbueno/slate-auto-exit-block.git",
